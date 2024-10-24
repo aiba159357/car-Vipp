@@ -1,0 +1,156 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #222;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about {
+    padding: 40px 20px;
+    background-color: #222;
+    margin: 20px 0;
+    height: 1500px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    transition: color 0.3s , transform 0.3s , text-shadow 0.3s ;
+    font-size: 23px;
+    margin-right:250px; 
+    text-wrap: nowrap;
+
+}
+
+header h1:hover {
+    color: #ffcc00; 
+    text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00; 
+    transform: scale(1.1); 
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    text-wrap: nowrap;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #0284ed; 
+    text-shadow: 0 0 10px #0681b9, 0 0 20px #0e4cbf; 
+    transform: scale(1.1);
+    transition: 0.5s;
+}                   
+.logoo{
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+    width: fit-content;
+
+}
+.logoo:hover{
+    background: #ffcc00; 
+    box-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00; 
+    transform: scale(1.1); 
+    transition: .5s;
+    width: 75px;
+    height: 50px;
+    width: fit-content;
+}
+.menu {
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+.med-nav{
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+}
+footer:hover{
+    color: #00f0d4; 
+    text-shadow: 0 0 20px #ff2c02, 0 0 20px #00f038; 
+    transform: scale(1.1); 
+}
+
+h2, h3 {
+    color: #ffcc00;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.about-img {
+    width: min(100%, 500px);
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;   
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #ffcc00;
+    border-radius: 40px;
+    transition: .7s;
+}
+
+
+.about-text {
+    max-width: 600px;
+}
+.about-text p, .about-text ul {
+    
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+    0% {
+      
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
